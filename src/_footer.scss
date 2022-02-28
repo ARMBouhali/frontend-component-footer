@@ -3,3 +3,42 @@ $gray-footer: #fcfcfc !default;
 .footer {
   background-color: $gray-footer;
 }
+
+.logo-area{
+  min-width: 280px;
+}
+
+.social-icons{
+  padding: 20px;
+  gap: 16px;
+  max-width: 280px; 
+}
+
+.footer-menus{
+  column-gap: 24px;
+  @media(min-width: 768px){
+    column-gap: auto;
+  }
+}
+
+.footer-col-menu{
+  width: 100%;
+  text-align: center;
+  @media(min-width: 576px){
+  }
+  @media(min-width: 768px){
+    width: auto;
+    max-width: 300px;
+    text-align: inherit
+  }
+
+  h2{
+    color: $brand;
+  }
+  a, a:visited{
+    color: $gray-700;
+  }
+  a:hover{
+    color: $gray-900;
+  }
+}
