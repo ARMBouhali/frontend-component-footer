@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebookF, faTwitter, faYoutube, faInstagram, faReddit, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 
 ensureConfig([
+  'LMS_BASE_URL',
   'LOGO_TRADEMARK_URL',
   'LMS_BASE_URL'
 ], 'Footer component');
