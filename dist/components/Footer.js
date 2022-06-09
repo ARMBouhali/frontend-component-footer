@@ -30,7 +30,7 @@ import messages from './Footer.messages';
 import LanguageSelector from './LanguageSelector';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faYoutube, faInstagram, faReddit, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-ensureConfig(['LOGO_TRADEMARK_URL', 'LMS_BASE_URL'], 'Footer component');
+ensureConfig(['LMS_BASE_URL', 'LOGO_TRADEMARK_URL', 'LMS_BASE_URL'], 'Footer component');
 var EVENT_NAMES = {
   FOOTER_LINK: 'edx.bi.footer.link'
 };
@@ -121,7 +121,7 @@ var SiteFooter = /*#__PURE__*/function (_React$Component) {
       }];
       var menus = [{
         key: 'info',
-        title: 'أكاديمية جيل الترجيح',
+        title: 'أكاديمية الرواد',
         items: [{
           key: 'about',
           text: 'من نحن',
