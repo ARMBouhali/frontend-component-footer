@@ -95,7 +95,7 @@ class SiteFooter extends React.Component {
     const menus = [
       {
         key: 'info',
-        title: 'أكاديمية Fennx',
+        title: 'أكاديمية الرواد',
         items:[
           {
             key: 'about',
